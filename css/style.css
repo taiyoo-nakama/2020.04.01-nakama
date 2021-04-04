@@ -244,12 +244,13 @@ header{
 .container2{
   display: flex;
   margin: 0 15%;
+  justify-content: space-between;
 }
 .blog-card{
-  width: 40%;
+  width: 30%;
   background-color: #fff;
-  border-radius: 10px;
   border:1px solid #fff;
+  border-radius: 10px;
 }
 .blog-title1{
   margin: 50px 15% 10px;
@@ -322,6 +323,7 @@ header{
 }
 table{
   width: 90%;
+  margin-bottom: 70px;
 }
 table th,
 table td{
@@ -332,4 +334,21 @@ table td{
 }
 table th{
   text-align: left;
+}
+.recruit-image img{
+  width: 50%;
+}
+.recruit-image{
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+.recruit-title
+.interview-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%,-50%);
 }
