@@ -116,7 +116,6 @@ header{
 }
 .container{
   margin: 0 15%;
-
 }
 .about{
   text-align: center;
@@ -239,16 +238,34 @@ header{
   width: 100%;
   background-color: #f3f3f3;
   padding: 20px 0;
-  justify-content: space-between;
   margin: 0 auto;
+  justify-content: space-between;
+}
+.container2{
   display: flex;
+  margin: 0 15%;
 }
 .blog-card{
   width: 30%;
   background-color: #fff;
-  border-radius: 8px;
-  border: 0 solid #fff;
+  border-radius: 10px;
+  border:1px solid #fff;
+}
+.blog-title1{
+  margin: 10px 0;
+  color: #af215c;
+  font-family: 'Yatra One', cursive;
+  font-weight: normal;
+  font-size: 14px;
+}
+.blog-subtitle{
+  margin-bottom: 20px;
 }
 .blog-image img{
+  position: relative;
   width: 100%;
+
+}
+.blog-content{
+  position: absolute;
 }
