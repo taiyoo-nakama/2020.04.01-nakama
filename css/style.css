@@ -239,7 +239,7 @@ header{
   background-color: #f3f3f3;
   padding: 20px 0;
   margin: 0 auto;
-  justify-content: space-between;
+
 }
 .container2{
   display: flex;
@@ -260,12 +260,36 @@ header{
 }
 .blog-subtitle{
   margin-bottom: 20px;
+  width: 100%;
+}
+.blog-image{
+  position: relative;
+  
 }
 .blog-image img{
   position: relative;
   width: 100%;
-
 }
 .blog-content{
   position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px;
+  background-color: #af215c;
+}
+.blog-title{
+  padding: 10px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #888;
+}
+.blog-content-tag{
+  color: #aaa;
+  display: flex;
+  font-size: 10px;
+}
+.blog-content-tag-item{
+  padding: 10px;
 }
