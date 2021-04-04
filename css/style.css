@@ -246,7 +246,7 @@ header{
   margin: 0 15%;
 }
 .blog-card{
-  width: 30%;
+  width: 40%;
   background-color: #fff;
   border-radius: 10px;
   border:1px solid #fff;
@@ -257,6 +257,7 @@ header{
   font-family: 'Yatra One', cursive;
   font-weight: normal;
   font-size: 14px;
+  width: 100%;
 }
 .blog-subtitle{
   margin-bottom: 20px;
@@ -264,11 +265,6 @@ header{
 }
 .blog-image{
   position: relative;
-  
-}
-.blog-image img{
-  position: relative;
-  width: 100%;
 }
 .blog-content{
   position: absolute;
@@ -278,6 +274,9 @@ header{
   font-size: 10px;
   padding: 10px;
   background-color: #af215c;
+}
+.blog-image img{
+  width: 100%;
 }
 .blog-title{
   padding: 10px;
