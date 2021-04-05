@@ -35,25 +35,18 @@ header{
   margin: 0 0px 0 auto;
   width: 60%;
 }
-.title1 h1{
-
-  
-}
-.title1{
-  color: #af215c;
+.title{
   position: absolute;
   top: 15%;
   left: 15%;
+}
+
+.title1{
+  color: #af215c;
   font-size: 50px;
   line-height: 80px;
   margin-bottom: 30px;
   font-family: 'Yatra One', cursive;
-}
-.subtitle{
-  position: absolute;
-  left: 15%;
-  top: 60%;
-
 }
 .subtitle1{
   color: #af215c;
@@ -238,7 +231,7 @@ header{
   width: 100%;
   background-color: #f3f3f3;
   padding: 20px 0;
-  margin: 0 auto;
+  margin: 30px auto;
 
 }
 .container2{
@@ -250,7 +243,7 @@ header{
   width: 30%;
   background-color: #fff;
   border:1px solid #fff;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .blog-title1{
   margin: 50px 15% 10px;
@@ -266,6 +259,8 @@ header{
 }
 .blog-image{
   position: relative;
+  border-radius: 8px;
+
 }
 .blog-content{
   position: absolute;
@@ -275,9 +270,11 @@ header{
   font-size: 10px;
   padding: 10px;
   background-color: #af215c;
+  border-radius: 8px;
 }
 .blog-image img{
   width: 100%;
+  border-radius: 8px 8px 0 0 ;
 }
 .blog-title{
   padding: 10px;
@@ -288,7 +285,8 @@ header{
 .blog-content-tag{
   color: #aaa;
   display: flex;
-  font-size: 10px;
+  font-size: 8px;
+  margin-right: 5px;
 }
 .blog-content-tag-item{
   padding: 10px;
@@ -314,7 +312,7 @@ header{
   font-family: 'Yatra One', cursive;
   font-weight: normal;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 .table-title{
   margin-bottom: 10px;
@@ -334,6 +332,7 @@ table td{
 }
 table th{
   text-align: left;
+  background-color: #ddd;
 }
 .recruit-image img{
   width: 50%;
@@ -341,14 +340,40 @@ table th{
 .recruit-image{
   display: flex;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.recruit-title
-.interview-title{
+.recruit-title{
+  position: relative;
+}
+.recruit-tag{
   position: absolute;
   top: 50%;
   left: 50%;
   text-align: center;
   color: #fff;
   transform: translate(-50%,-50%);
+}
+.interview-title{
+  position: relative;
+}
+.interview-tag{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%,-50%);
+}
+
+
+.contact-btn{
+  width: 150px;
+  padding: 15px 15px;
+  text-align: center;
+  border: 1px solid #af215c;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #d44275;
+  margin: 30px auto 80px;
+  box-shadow: 2px #707070;
 }
