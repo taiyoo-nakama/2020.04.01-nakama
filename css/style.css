@@ -340,33 +340,38 @@ table th{
 .recruit-image{
   display: flex;
   position: relative;
-  margin-bottom: 30px;
-}
-.recruit-title{
-  position: relative;
+  margin-bottom: 50px;
 }
 .recruit-tag{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   text-align: center;
   color: #fff;
-  transform: translate(-50%,-50%);
-}
-.interview-title{
-  position: relative;
+  font-weight: bold;
 }
 .interview-tag{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 75%;
   text-align: center;
   color: #fff;
   transform: translate(-50%,-50%);
+  font-weight: bold;
 }
-
-
+.contact-title{
+  text-align: center;
+  color: #505050;
+  font-size: 14px;
+}
+.line{
+  margin: 20px 50%;
+  width: 1px;
+  height: 30px;
+  background-color: #af215c;
+}
 .contact-btn{
+  position: relative;
   width: 150px;
   padding: 15px 15px;
   text-align: center;
@@ -374,6 +379,16 @@ table th{
   border-radius: 25px;
   color: #fff;
   background-color: #d44275;
-  margin: 30px auto 80px;
+  margin: 20px auto 80px;
   box-shadow: 2px #707070;
+}
+.contact-btn::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  background: url(../img/mailicon.svg);
+  width: 20px;
+  height: 20px;
+  transform: translate(0,-50%);
 }
